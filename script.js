@@ -510,7 +510,7 @@ for (let i = 0; i < movementButtons.length; i++) {
 }
 
 function render() {
-  image.src = currentLocation.image;
+  image.src = "images/" + currentLocation.image;
   output.innerHTML = "Your location: " + currentLocation.name;
   output.innerHTML += "<br><em>" + gameMessage + "</em>";
   for (i = 0; i < currentLocation.items.length; i++) {
