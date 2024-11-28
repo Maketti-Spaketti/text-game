@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seikkailupeli</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h4>Pelimoottori lähti vähän lapasesta</h1>
+      <div class="container-inner">
+        <img id="image" src="" alt=""/>
+        <p>
+          <input type="text" id="action" placeholder="Mitä haluat tehdä?" />
+          <button id="action_btn">Vastaa</button>
+        </p>
+        <p>
+          <div style="text-align: center">
+            <button class="arrow_btn" direction="pohjoinen">UP</button><br />
+            <button class="arrow_btn" direction="länsi">LEFT</button>
+            <button class="arrow_btn" direction="itä">RIGHT</button><br />
+            <button class="arrow_btn" direction="etelä">DOWN</button>
+          </div>
+        </p>
+        <p id="output"></p>
+      </div>
+    </div>
+    <div>
+      <details id="walkthrough">
+        <summary>Yleistä</summary>
+        - Esineitten debugaus rivit on rivillä 470 javascriptissä<br>
+        - Consolissa on aika paljon debugaus viestejä<br>
+        - Esineitä voi yrittää käyttää missä vain<br>
+        - Esineitä voi tiputtaa minne vain, ne saa aina poimittua takaisin<br>
+        - Joskus esine pitää jättää maahan jotta jotain tapahtuu<br>
+        - poimi=nosta=ota<br>
+        - käytä=syö=lyö=soita=kaiva<br>
+        - pudota=tiputa=anna=jätä=heitä<br>
+        - Tavaroiden nimiä pystyy yleensä vääntämään hieman,esim. miekkaa=miekka<br>
+      </details>
+      <details id="walkthrough">
+        <summary>Walkthrough</summary>
+        Yleistä:<br>
+        1. Poimi kivi joelta<br>
+        2. tiputa/heitä/pudota kivi kaivoon<br>
+        3. poimi huilu<br>
+        4. käytä/soita huilua mökissä<br>
+        5. poimi miekka<br>
+        6. käytä/kaiva miekkaa/miekalla metsäaukiolla, saat porkkanan<br>
+        7. Poimi jäniksenkarkotin penkin alta<br>
+        8. tiputa porkkana lohikäärmeelle<br>
+        9. poistu/palaa lohikäärmeelle -> lohikäärme on laskeutunut<br>
+        10. käytä karkotinta<br>
+        11. poimi avain<br>
+        12. käytä avainta porttiin<br>
+      </details>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

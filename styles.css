@@ -1,0 +1,46 @@
+.output {
+  font-weight: bold;
+}
+body {
+  height: 100vh;
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+}
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(images/background.jpg);
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  /* display: flex;
+  align-items: center; */
+}
+.container-inner {
+  width: 302px;
+  margin: 0 auto;
+  text-align: center;
+}
+p {
+  color: #fff;
+  margin: 5px;
+}
+img {
+  margin: 10px auto;
+  display: block;
+  width: 300px;
+  height: 267px;
+  border: 1px solid black;
+}
+.arrow_btn {
+  margin: 0;
+}
+.action_btn {
+  margin: 10px;
+  display: flex;
+}
+h4,
+#walkthrough {
+  color: white;
+  margin: 0;
+}
